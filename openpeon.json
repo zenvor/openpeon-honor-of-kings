@@ -139,22 +139,22 @@
         {
           "file": "sounds/double-kill-2.wav",
           "label": "Double Kill!",
-          "sha256": "99e82286cc015ebeebbae2fd6abf3ecfabeb468ba916f4a9d487a2c0d387bfe1"
+          "sha256": "e8ca959a537fcaa54434a5de91a69d4720cbf10bbd0c4fe3d853ce76a7045f57"
         },
         {
           "file": "sounds/double-kill-1.wav",
           "label": "Double Kill! (alt)",
-          "sha256": "72569b6ddc00344ca278e1f4a701aaec11c54e51cc219bc14e62202c1a15ea4c"
+          "sha256": "24ddde28f479f6bc3052886aea2ab37cafdd9566e7f7b188563b6bf7a2e4513e"
         },
         {
           "file": "sounds/triple-kill-1.wav",
           "label": "Triple Kill!",
-          "sha256": "e430c8a9c260a0d9d0ac8747e9b79d56e2605dfbe29842dd35b97e8b8415abb8"
+          "sha256": "832b2f37de475b2a66f9428bdff755716caf2fcc350adb5f0f765e8d39d2f6dc"
         },
         {
           "file": "sounds/triple-kill-2.wav",
           "label": "Triple Kill! (alt)",
-          "sha256": "174eaca19a310c7319705cafc061d488001d9cd3230c4f7b37b6028da4daac6c"
+          "sha256": "2d1b44108b0db08caf04410e8d52b7eed611b4e064b3daae87cdf8bcbb960676"
         },
         {
           "file": "sounds/quadra-kill-3.wav",
@@ -169,7 +169,7 @@
         {
           "file": "sounds/quadra-kill-2.wav",
           "label": "Quadra Kill!",
-          "sha256": "40ed5c465a5f16b8309d89898983587eb3e036ed342df6fbc8e51d57f6a69978"
+          "sha256": "5782f585a9170c152d6b75e1260825c686b5aabf442b61fd982302e6f723fa80"
         },
         {
           "file": "sounds/pentakill-1.wav",
@@ -179,7 +179,7 @@
         {
           "file": "sounds/pentakill-3.wav",
           "label": "Pentakill! (alt)",
-          "sha256": "cc7e80c82a057cda54bef21edff59f84e07b9609bc314e42dce5ea4467bfcbfb"
+          "sha256": "0e69d22c9dc115394b40ab956ebacd4214588aae811c9c712ccc5f4a0c5989e9"
         },
         {
           "file": "sounds/pentakill-2.wav",
@@ -390,7 +390,7 @@
         {
           "file": "sounds/aced.wav",
           "label": "Aced.",
-          "sha256": "0246ff7332c6e590294864d98bee86b6b55f9d01b6086550bfd8603a48555a9f"
+          "sha256": "f7036ac69b07057377fabc2c3be4458071edc2714aacff0591bbbf0ce3ee5326"
         },
         {
           "file": "sounds/stop-poking-me.wav",
@@ -433,7 +433,7 @@
         {
           "file": "sounds/defeat.wav",
           "label": "Defeat.",
-          "sha256": "25d07c3705b8918fc7652024548eade435187472ea10d30c432b49f4ed779e2f"
+          "sha256": "be66808fad254770b0a06dcebd9ae1aac0fa46e10ad7be43279bc4bcbc29b04b"
         },
         {
           "file": "sounds/you-have-been-slain-1.wav",
