@@ -1,0 +1,451 @@
+{
+  "cesp_version": "1.0",
+  "name": "honor_of_kings",
+  "display_name": "Honor of Kings",
+  "version": "1.0.0",
+  "description": "Honor of Kings game announcement voice lines.",
+  "author": {
+    "name": "zenvor",
+    "github": "zenvor"
+  },
+  "license": "MIT",
+  "language": "zh",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/welcome-to-kings-canyon.wav",
+          "label": "欢迎来到王者峡谷",
+          "sha256": "ab064be2a2d1679ef4cc472e816670b503f67ea0a36d61c5dcdebbe1432ecb55"
+        },
+        {
+          "file": "sounds/welcome-to-honor-of-kings.wav",
+          "label": "欢迎来到王者荣耀",
+          "sha256": "394ca77b6bdcbf664ecec405627cd957bf8a951dc16e82b7a051da22292427d4"
+        },
+        {
+          "file": "sounds/enemies-arriving-in-5-seconds.wav",
+          "label": "敌军还有5秒到达战场，请做好准备",
+          "sha256": "a6321214d4c2311161a8e071f0f812fcdaaa96059d364f0b5554261144b3d1b3"
+        },
+        {
+          "file": "sounds/come-play-with-me.wav",
+          "label": "来和我玩吧",
+          "sha256": "d65e19c796be71a01c59dd0d7b9c977c3c7d9141b0dbd685089aff57d62a2281"
+        },
+        {
+          "file": "sounds/how-did-you-know-its-me.wav",
+          "label": "你怎么知道是我",
+          "sha256": "0f24bef7b39a531592fb6cc40b9a794f9050d01e2cf96c7bead270b02ddd62e9"
+        },
+        {
+          "file": "sounds/most-handsome-customer.wav",
+          "label": "哇，你是我见过最帅的客人",
+          "sha256": "cdad3c9d1ed3274d6c9a67dd69c16776480c49c142011bd8f0038bc40355dc6f"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/all-troops-charge.wav",
+          "label": "全军出击",
+          "sha256": "2bf5ef1425fc0faaaa64d0e4271962c50c11f5031825900d61c4c57e744eccaa"
+        },
+        {
+          "file": "sounds/prepare-for-battle.wav",
+          "label": "准备迎战",
+          "sha256": "cc9cc12f8d3a6d9c435ffe105a0260843772e6cb7c1342f24915469e7774a76e"
+        },
+        {
+          "file": "sounds/ultimate-ready.wav",
+          "label": "大招已经好了",
+          "sha256": "1b806f907d9bbcc07923a4511440f59bbb71b265797c05086e2da0fcfb41208f"
+        },
+        {
+          "file": "sounds/on-my-way-to-support.wav",
+          "label": "正在前往支援",
+          "sha256": "67de29e2fbf0a2d7745af95008e8c35e2d873975d31cde0bab961ac62b7563cf"
+        },
+        {
+          "file": "sounds/clear-the-wave-1.wav",
+          "label": "清理兵线",
+          "sha256": "3d7f788b2f0b698a86b7e1c15dad6538f52a7fdab0021201cc817c038333050c"
+        },
+        {
+          "file": "sounds/clear-the-wave-2.wav",
+          "label": "清理兵线",
+          "sha256": "263adab1b87e6350030cc63f61397fe452e2f3497d9647ca8c0043d5ce90a298"
+        },
+        {
+          "file": "sounds/follow-me.wav",
+          "label": "跟着我",
+          "sha256": "70c700d3a739508a0edbefbc06262e9e415babf486a2b37567a1ebe52dd20d6e"
+        },
+        {
+          "file": "sounds/rally-and-ambush.wav",
+          "label": "集合埋伏",
+          "sha256": "7980c7c286308ac9aaf1619b332d767b8686e29f09343a32fcbe41124d5a7ff8"
+        },
+        {
+          "file": "sounds/coming-to-gank.wav",
+          "label": "我来抓人了",
+          "sha256": "f827d5a7eec4659dbdbb1926eb95fdf16587dc2493a527060bd3b65277587646"
+        },
+        {
+          "file": "sounds/prioritize-towers.wav",
+          "label": "优先推塔",
+          "sha256": "4efc868907a26ef54fb6e3b836e4a48d2ad161b966821db8f7b63ab297c455a5"
+        },
+        {
+          "file": "sounds/prepare-to-tower-dive.wav",
+          "label": "准备越塔强攻",
+          "sha256": "9991278caa48790b42b1abefb9065f4157e4ae0a43f10e3df172702c5770e797"
+        },
+        {
+          "file": "sounds/beware-of-bushes.wav",
+          "label": "小心草丛",
+          "sha256": "0e5f14078fb67b4f5bba3a1e6f3162455583dc61b8c5dea9c02d56c150ce45b5"
+        },
+        {
+          "file": "sounds/watch-the-jungle.wav",
+          "label": "注意野区",
+          "sha256": "93da4b6fac9b6f3042f6781440e5cdd1bf26f092e29e6f10a6bc3c030a3e2345"
+        },
+        {
+          "file": "sounds/you-cant-buy-me.wav",
+          "label": "你是买不到我的哟",
+          "sha256": "e69277752103dbf5eed41ffe26f3ea9d8577425b86e8b0eb34c6eef7061d1f05"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/first-blood-2.wav",
+          "label": "First Blood!",
+          "sha256": "9419061484a91ae5a935c6c629573bbe7e31dd6fc80d2f2603e2faa32becfb53"
+        },
+        {
+          "file": "sounds/first-blood-1.wav",
+          "label": "First Blood! (alt)",
+          "sha256": "3f295d8e3821d4f655809510113b1b47e5593c205e6c5adc2eb963d5c940732e"
+        },
+        {
+          "file": "sounds/you-have-slain-an-enemy.wav",
+          "label": "You Have Slain An Enemy.",
+          "sha256": "0c662fda3895f6c4a49f50fd413fbe835cb5ff625d55cba09e87f21dd33f9f35"
+        },
+        {
+          "file": "sounds/double-kill-2.wav",
+          "label": "Double Kill!",
+          "sha256": "99e82286cc015ebeebbae2fd6abf3ecfabeb468ba916f4a9d487a2c0d387bfe1"
+        },
+        {
+          "file": "sounds/double-kill-1.wav",
+          "label": "Double Kill! (alt)",
+          "sha256": "72569b6ddc00344ca278e1f4a701aaec11c54e51cc219bc14e62202c1a15ea4c"
+        },
+        {
+          "file": "sounds/triple-kill-1.wav",
+          "label": "Triple Kill!",
+          "sha256": "e430c8a9c260a0d9d0ac8747e9b79d56e2605dfbe29842dd35b97e8b8415abb8"
+        },
+        {
+          "file": "sounds/triple-kill-2.wav",
+          "label": "Triple Kill! (alt)",
+          "sha256": "174eaca19a310c7319705cafc061d488001d9cd3230c4f7b37b6028da4daac6c"
+        },
+        {
+          "file": "sounds/quadra-kill-3.wav",
+          "label": "Quadra Kill!",
+          "sha256": "feca225f74347a3919c051e30a5443cd80aa5be076555a765f5efa3937a80954"
+        },
+        {
+          "file": "sounds/quadra-kill-1.wav",
+          "label": "Quadra Kill! (alt)",
+          "sha256": "24a1d9bfe2d16f2299fd4b1a8859c4b1c80fa0416a532ab5beabe69c3ad50f5f"
+        },
+        {
+          "file": "sounds/quadra-kill-2.wav",
+          "label": "Quadra Kill!",
+          "sha256": "40ed5c465a5f16b8309d89898983587eb3e036ed342df6fbc8e51d57f6a69978"
+        },
+        {
+          "file": "sounds/pentakill-1.wav",
+          "label": "Pentakill!",
+          "sha256": "fce884bec1ef5209307064a3fda0cf95ffe3c113e46bfd349155a6bd4823bc1e"
+        },
+        {
+          "file": "sounds/pentakill-3.wav",
+          "label": "Pentakill! (alt)",
+          "sha256": "cc7e80c82a057cda54bef21edff59f84e07b9609bc314e42dce5ea4467bfcbfb"
+        },
+        {
+          "file": "sounds/pentakill-2.wav",
+          "label": "Pentakill!",
+          "sha256": "5b83a0c1ad4266afc342c20c37f3c7a964f1d228c9a732c0eff4585211377893"
+        },
+        {
+          "file": "sounds/hexakill-1.wav",
+          "label": "Hexakill!",
+          "sha256": "72be49afaed8dfa04cb8487ebf730c93db8c79ef176b96f1935d10b7a4256f80"
+        },
+        {
+          "file": "sounds/hexakill-2.wav",
+          "label": "Hexakill! (alt)",
+          "sha256": "1bbd64cfdcde5ef09ff1ba9b76f43146c525a50d540c8974b3ae81f68a5f0b49"
+        },
+        {
+          "file": "sounds/hexakill-3.wav",
+          "label": "Hexakill! (alt2)",
+          "sha256": "e6e46ef03795223ca86afc40ce1823809a51c665ce169255f67c364010681c59"
+        },
+        {
+          "file": "sounds/heptakill.wav",
+          "label": "Heptakill!",
+          "sha256": "20859ec6c74826d94ee2fed83d4496fc863fe4e451836cad4ca577f550ce8f26"
+        },
+        {
+          "file": "sounds/octokill-1.wav",
+          "label": "Octokill!",
+          "sha256": "392c5f23489c8bec1e8f50edb3e6ba90049c0fd2913edbc89eed234f5031e26c"
+        },
+        {
+          "file": "sounds/octokill-2.wav",
+          "label": "Octokill! (alt)",
+          "sha256": "8a329ee536809807e0a66e83a0a7486d0e0cd4b7b60c421076ca51af0f33b075"
+        },
+        {
+          "file": "sounds/killing-spree.wav",
+          "label": "Killing Spree!",
+          "sha256": "22629e6be8cf745f76adcea087ba48ce687115903ec3d9c29fa6ec3200269c15"
+        },
+        {
+          "file": "sounds/rampage.wav",
+          "label": "Rampage!",
+          "sha256": "39d7c0890279f1d6a1ea78a5d0ac281030e51b49b2a638afead97efb254d5e33"
+        },
+        {
+          "file": "sounds/unstoppable.wav",
+          "label": "Unstoppable.",
+          "sha256": "9b97914277b7b663c7eb1ac53aeefed7ba85aa9c10d2af52c48f9b9b2b4da07d"
+        },
+        {
+          "file": "sounds/legendary.wav",
+          "label": "Legendary!",
+          "sha256": "656d95a4c1274395baaaef69f3fc0b54de6ce480fcec6caa68470d05511328a1"
+        },
+        {
+          "file": "sounds/godlike.wav",
+          "label": "Godlike!",
+          "sha256": "55ec0593309e87ec4e063618d3e2939fda07914ae0f277be92d5fe55b600d7d0"
+        },
+        {
+          "file": "sounds/shut-down.wav",
+          "label": "Shut Down.",
+          "sha256": "48afb7fb7a9ca0b142cd88645710afb8911883be3fdbe54c963d993096635b44"
+        },
+        {
+          "file": "sounds/victory.wav",
+          "label": "Victory!",
+          "sha256": "e8312c46ada722ce3cf65f065394a921cd6610f58e99df5b81405de40b9a3708"
+        },
+        {
+          "file": "sounds/well-done.wav",
+          "label": "干的漂亮",
+          "sha256": "df2a6898b69b22f3da13d78fd9d7c2764756fd7ff8c713658bb334948630190c"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/you-have-been-slain-2.wav",
+          "label": "You Have Been Slain.",
+          "sha256": "75e19fe225fa2008a6f9aac0b10e2e17e2428026b61659319a28c007b0948d49"
+        },
+        {
+          "file": "sounds/your-turret-has-been-destroyed.wav",
+          "label": "Your Turret Has Been Destroyed.",
+          "sha256": "29ee624727a09624e161a7588677c32d5b9fd0549156e76b7f5fb407976d529e"
+        },
+        {
+          "file": "sounds/high-ground-turret-under-attack.wav",
+          "label": "我方高地防御塔正在被攻击",
+          "sha256": "4cae2e546ff0e379599f0d1ec92a33b1f839bd45237e16eaa01d74cd2e1549e6"
+        },
+        {
+          "file": "sounds/someone-stealing-tower.wav",
+          "label": "有人偷塔",
+          "sha256": "3879b3b33d40dc79f065525f200401f48f50ca5b0e5c0d3469478645bed6b2b3"
+        },
+        {
+          "file": "sounds/beware-enemy-tower-steal.wav",
+          "label": "小心对方偷塔",
+          "sha256": "0374209723646d0fc044986be811a29706694577b7fb58f4acdcbcd310660c76"
+        },
+        {
+          "file": "sounds/start-retreating.wav",
+          "label": "开始撤退",
+          "sha256": "a08761d282fe959ea2fa8cb6c010b13a429dc8a28b3ff5e543aa76348ef0e0e3"
+        },
+        {
+          "file": "sounds/defend-high-ground.wav",
+          "label": "回防高地",
+          "sha256": "7d67061cc59503bf9cf3143e044873fd15890df97ce4f408b6488b0b2552c771"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/request-support-1.wav",
+          "label": "请求支援",
+          "sha256": "e67495ef6048902efbc4f6b8bd1ea964ec50300fd1fd06abd51189aa580ac747"
+        },
+        {
+          "file": "sounds/request-rally.wav",
+          "label": "请求集合",
+          "sha256": "6ddaa23294b3789d5ce557fe3997db7fd051eea86e176ff066aa1ed20ad967b4"
+        },
+        {
+          "file": "sounds/team-fight-stop-solo.wav",
+          "label": "打团了，别单带",
+          "sha256": "bb8d80deb6e115981cd0202976a57fee388b4e8ae796853c3f0442db10d24753"
+        },
+        {
+          "file": "sounds/support-me.wav",
+          "label": "支援我！",
+          "sha256": "28577daca213869021dd872167339384b89d765ae77ca6ccfa41a1b13b02e4db"
+        },
+        {
+          "file": "sounds/request-health-support.wav",
+          "label": "请求药品支援",
+          "sha256": "cb2001a7a5834f74b519f6d16bd23735986ca55f8bd7e1960d0fd21f956275bb"
+        },
+        {
+          "file": "sounds/our-crystal-under-attack.wav",
+          "label": "我方水晶正在被攻击",
+          "sha256": "5917b63712e752b8d7fbeeed2fe4ae019d1621fee7ca4a791421c57ec2eb4d43"
+        },
+        {
+          "file": "sounds/our-turret-under-attack.wav",
+          "label": "我方防御塔正在被攻击",
+          "sha256": "a0eb18162c1d4979d5a19693f47a4d2347341016cac50ea31256b4b6708972bf"
+        },
+        {
+          "file": "sounds/request-support-2.wav",
+          "label": "请求支援",
+          "sha256": "9bd8b669b89806c17c2a4e9658dab30df84586de7f481c07cd6903a120478dfa"
+        },
+        {
+          "file": "sounds/dont-miss-the-goods.wav",
+          "label": "这么多好货别错过哟",
+          "sha256": "2a44b702028594c3d1658460659d613c5a88ed1cafd7945b74a6749c17fd346d"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/behind-in-gold-dont-fight.wav",
+          "label": "经济落后，别团",
+          "sha256": "cf02b5e30ff4dca737682c5d1417c1380648d0912f389cedf32034c97a0d25aa"
+        },
+        {
+          "file": "sounds/farm-safe-dont-overextend.wav",
+          "label": "猥琐发育，别浪",
+          "sha256": "608a2afdcf94ef66ea39bd220dfe43dc3b90afbd272cdce62210be2d20b81998"
+        },
+        {
+          "file": "sounds/minions-not-here-retreat.wav",
+          "label": "兵线没到，撤退",
+          "sha256": "d9a2ca635e18b6321b7a12ddbc3b085dc1b439ac802f261ab71b5c5b4d7d9f19"
+        },
+        {
+          "file": "sounds/dont-fight-wait-for-team-1.wav",
+          "label": "别团，等人齐",
+          "sha256": "1b9434df08e8f5602f6fcded3a8622d2ab9bc695da2e51d789729f5e914d9d47"
+        },
+        {
+          "file": "sounds/dont-fight-wait-for-team-2.wav",
+          "label": "别团，等人齐",
+          "sha256": "537d4f41a643f8bc4ea13769a0583bdd173021e2ee701374957393fc944550b9"
+        },
+        {
+          "file": "sounds/clear-wave-then-fight.wav",
+          "label": "清完兵线再团",
+          "sha256": "20493bb224aca74ab12f487df9d448448f35ce3d30689c425cca62d8982a3a6a"
+        },
+        {
+          "file": "sounds/not-in-shape-retreat.wav",
+          "label": "状态不好，撤退",
+          "sha256": "568c83cf92c1cb4c54e3bd97ab1f895021e87b3db800117cc1a84c5b4de110c3"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/aced.wav",
+          "label": "Aced.",
+          "sha256": "0246ff7332c6e590294864d98bee86b6b55f9d01b6086550bfd8603a48555a9f"
+        },
+        {
+          "file": "sounds/stop-poking-me.wav",
+          "label": "不要一直戳人家了",
+          "sha256": "c5d8c133002b55233b8ee427d56beaa47fd9173e20d84e4535bbfaaaa2bb61bc"
+        },
+        {
+          "file": "sounds/dont-you-like-me.wav",
+          "label": "你不喜欢看我吗",
+          "sha256": "31d3d172cd630c3ba73a85867e9080bc24a977a2146f3c50f58eff2f8f3b05e6"
+        }
+      ]
+    },
+    "task.progress": {
+      "sounds": [
+        {
+          "file": "sounds/hold-on-we-can-win.wav",
+          "label": "稳住，我们能赢",
+          "sha256": "ad0e6cd6e927853b03e0c5074c38dfd80369469835423c75a8789f689e7c2fab"
+        },
+        {
+          "file": "sounds/wait-for-me-almost-there.wav",
+          "label": "等等我，马上到",
+          "sha256": "9dfb7b0a1998636b379d333f76fcc5f6b0565e895e9a81dab06b73959ff832af"
+        },
+        {
+          "file": "sounds/keep-pushing-ill-defend.wav",
+          "label": "继续推，我回防",
+          "sha256": "1802aaedc167fcfb157aece6a2f07786f0fad3b556140a4c853d56a67baac53c"
+        },
+        {
+          "file": "sounds/wait-for-me-to-group.wav",
+          "label": "等我集合打团",
+          "sha256": "048054f5c57bb523b67ee32a1996af40924083ccfd419c344b53fe2c6832d6f4"
+        }
+      ]
+    },
+    "session.end": {
+      "sounds": [
+        {
+          "file": "sounds/defeat.wav",
+          "label": "Defeat.",
+          "sha256": "25d07c3705b8918fc7652024548eade435187472ea10d30c432b49f4ed779e2f"
+        },
+        {
+          "file": "sounds/you-have-been-slain-1.wav",
+          "label": "You Have Been Slain.",
+          "sha256": "8b556c5feb0c9be8485a2a8837ac74d0e35cd785b5b2ca777728474e9a635406"
+        },
+        {
+          "file": "sounds/dont-forget-to-visit.wav",
+          "label": "别忘了常来看我哦",
+          "sha256": "2d925e55b8eef95cb6ef23e64d4d65c734eb4e2898f47b23dd8b842fb4a016d9"
+        }
+      ]
+    }
+  }
+}
