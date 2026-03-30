@@ -8,7 +8,7 @@
     "name": "zenvor",
     "github": "zenvor"
   },
-  "license": "MIT",
+  "license": "CC-BY-NC-4.0",
   "language": "zh",
   "categories": {
     "session.start": {
@@ -124,7 +124,7 @@
         },
         {
           "file": "sounds/xishi-roger.wav",
-          "label": "收到",
+          "label": "收到 (西施)",
           "sha256": "ac51b134517828cd60b8b7e00a0ac67a8d69b9b8999c6b4d78753be59ecfe42d"
         },
         {
