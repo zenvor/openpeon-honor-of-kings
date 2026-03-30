@@ -27,6 +27,7 @@ peon packs use --install honor_of_kings
 - System announcements from *Honor of Kings* (王者荣耀)
 - XiShi (西施) character voice lines from *Honor of Kings*
 - Store VO from *Honor of Kings*
+
 ## License
 
 Audio content: CC-BY-NC-4.0 (see `openpeon.json`). Repository structure: MIT.
