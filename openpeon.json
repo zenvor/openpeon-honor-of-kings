@@ -2,7 +2,7 @@
   "cesp_version": "1.0",
   "name": "honor_of_kings",
   "display_name": "Honor of Kings",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Honor of Kings game announcement voice lines.",
   "author": {
     "name": "zenvor",
@@ -14,19 +14,14 @@
     "session.start": {
       "sounds": [
         {
-          "file": "sounds/welcome-to-kings-canyon.wav",
-          "label": "欢迎来到王者峡谷",
-          "sha256": "ab064be2a2d1679ef4cc472e816670b503f67ea0a36d61c5dcdebbe1432ecb55"
-        },
-        {
           "file": "sounds/welcome-to-honor-of-kings.wav",
           "label": "欢迎来到王者荣耀",
           "sha256": "394ca77b6bdcbf664ecec405627cd957bf8a951dc16e82b7a051da22292427d4"
         },
         {
-          "file": "sounds/enemies-arriving-in-5-seconds.wav",
-          "label": "敌军还有5秒到达战场，请做好准备",
-          "sha256": "a6321214d4c2311161a8e071f0f812fcdaaa96059d364f0b5554261144b3d1b3"
+          "file": "sounds/welcome-to-kings-canyon.wav",
+          "label": "欢迎来到王者峡谷",
+          "sha256": "ab064be2a2d1679ef4cc472e816670b503f67ea0a36d61c5dcdebbe1432ecb55"
         },
         {
           "file": "sounds/come-play-with-me.wav",
@@ -42,41 +37,26 @@
           "file": "sounds/most-handsome-customer.wav",
           "label": "哇，你是我见过最帅的客人",
           "sha256": "cdad3c9d1ed3274d6c9a67dd69c16776480c49c142011bd8f0038bc40355dc6f"
+        },
+        {
+          "file": "sounds/dont-miss-the-goods.wav",
+          "label": "这么多好货别错过哟",
+          "sha256": "2a44b702028594c3d1658460659d613c5a88ed1cafd7945b74a6749c17fd346d"
+        },
+        {
+          "file": "sounds/you-cant-buy-me.wav",
+          "label": "你是买不到我的哟",
+          "sha256": "e69277752103dbf5eed41ffe26f3ea9d8577425b86e8b0eb34c6eef7061d1f05"
+        },
+        {
+          "file": "sounds/friends-unite-rank-up.wav",
+          "label": "朋友齐心，排位上星",
+          "sha256": "4633d5d4774eb5d1348bf4a7db099a5d35d920e934ee1e5681d840371da02639"
         }
       ]
     },
     "task.acknowledge": {
       "sounds": [
-        {
-          "file": "sounds/all-troops-charge.wav",
-          "label": "全军出击",
-          "sha256": "2bf5ef1425fc0faaaa64d0e4271962c50c11f5031825900d61c4c57e744eccaa"
-        },
-        {
-          "file": "sounds/prepare-for-battle.wav",
-          "label": "准备迎战",
-          "sha256": "cc9cc12f8d3a6d9c435ffe105a0260843772e6cb7c1342f24915469e7774a76e"
-        },
-        {
-          "file": "sounds/ultimate-ready.wav",
-          "label": "大招已经好了",
-          "sha256": "1b806f907d9bbcc07923a4511440f59bbb71b265797c05086e2da0fcfb41208f"
-        },
-        {
-          "file": "sounds/on-my-way-to-support.wav",
-          "label": "正在前往支援",
-          "sha256": "67de29e2fbf0a2d7745af95008e8c35e2d873975d31cde0bab961ac62b7563cf"
-        },
-        {
-          "file": "sounds/clear-the-wave-1.wav",
-          "label": "清理兵线",
-          "sha256": "3d7f788b2f0b698a86b7e1c15dad6538f52a7fdab0021201cc817c038333050c"
-        },
-        {
-          "file": "sounds/clear-the-wave-2.wav",
-          "label": "清理兵线",
-          "sha256": "263adab1b87e6350030cc63f61397fe452e2f3497d9647ca8c0043d5ce90a298"
-        },
         {
           "file": "sounds/follow-me.wav",
           "label": "跟着我",
@@ -98,44 +78,79 @@
           "sha256": "4efc868907a26ef54fb6e3b836e4a48d2ad161b966821db8f7b63ab297c455a5"
         },
         {
-          "file": "sounds/prepare-to-tower-dive.wav",
-          "label": "准备越塔强攻",
-          "sha256": "9991278caa48790b42b1abefb9065f4157e4ae0a43f10e3df172702c5770e797"
-        },
-        {
-          "file": "sounds/beware-of-bushes.wav",
-          "label": "小心草丛",
-          "sha256": "0e5f14078fb67b4f5bba3a1e6f3162455583dc61b8c5dea9c02d56c150ce45b5"
-        },
-        {
           "file": "sounds/watch-the-jungle.wav",
           "label": "注意野区",
           "sha256": "93da4b6fac9b6f3042f6781440e5cdd1bf26f092e29e6f10a6bc3c030a3e2345"
         },
         {
-          "file": "sounds/you-cant-buy-me.wav",
-          "label": "你是买不到我的哟",
-          "sha256": "e69277752103dbf5eed41ffe26f3ea9d8577425b86e8b0eb34c6eef7061d1f05"
+          "file": "sounds/roger.wav",
+          "label": "收到",
+          "sha256": "84513b3a2a3f4540d6325c021e8d5831a18009ecf44ed99df431b76f7d8103f2"
+        },
+        {
+          "file": "sounds/help-check-blue-thanks.wav",
+          "label": "帮我看蓝，谢谢",
+          "sha256": "ea849446fa1a8be696a1bdbf7fbd88abd50609f02a461e4a72d3943cc2ba91c9"
+        },
+        {
+          "file": "sounds/protect-our-carry.wav",
+          "label": "保护我方输出",
+          "sha256": "a8505a08e51318f08778d1a097c1aad7665974ae769f20731b1c43f926abc39c"
+        },
+        {
+          "file": "sounds/xishi-wait-for-me.wav",
+          "label": "等等我，马上到",
+          "sha256": "1beb9a88401e5593c973831a8dbbc01a655e04165b3d258215ee8bbf88245321"
+        },
+        {
+          "file": "sounds/enemy-missing.wav",
+          "label": "敌人消失",
+          "sha256": "1ff4c7e5571aa17ad265ad00237578537ebc9c49262c3f90e26e043e935c3f6c"
+        },
+        {
+          "file": "sounds/gather-prepare-teamfight.wav",
+          "label": "集合准备团战",
+          "sha256": "4a6c0097e453590473f2514dce664c3c58a489ad1acfcb4b30f935343b9c4513"
+        },
+        {
+          "file": "sounds/request-buff-thanks.wav",
+          "label": "求人BUFF，谢谢",
+          "sha256": "220fd2b1974586ca7b6926ff912df19dc1cea685387f83d7be12d1838aead78a"
+        },
+        {
+          "file": "sounds/all-attack-mid.wav",
+          "label": "全体进攻中路",
+          "sha256": "d20f02f74c7ddb043efc18e549f7a48894c97561c9054a9b70faa6326062686c"
+        },
+        {
+          "file": "sounds/xishi-roger.wav",
+          "label": "收到",
+          "sha256": "ac51b134517828cd60b8b7e00a0ac67a8d69b9b8999c6b4d78753be59ecfe42d"
+        },
+        {
+          "file": "sounds/stall-ill-backdoor.wav",
+          "label": "拖住，我偷塔",
+          "sha256": "22b6454ffbbc1d238d6be7587a9d58c387f9a0c91f056a059933ac7cf5b352a7"
+        },
+        {
+          "file": "sounds/play-safe-dont-feed.wav",
+          "label": "猥琐发育，别浪",
+          "sha256": "031a7ba6001352bc79129b8633a5206e034dd7285ef7b37da25d58ca1e1e57be"
+        },
+        {
+          "file": "sounds/focus-their-carry.wav",
+          "label": "优先攻击输出",
+          "sha256": "4a61e50965904104ee5b1c2c639e8a74c46445491e57878aefdef1e400d704e4"
+        },
+        {
+          "file": "sounds/on-my-way-to-support.wav",
+          "label": "正在前往支援",
+          "sha256": "1afc40d5ae2b71d37e60d824dfe6559d7d0717a75f718f241da8233b487c7781"
         }
       ]
     },
     "task.complete": {
       "sounds": [
-        {
-          "file": "sounds/first-blood-2.wav",
-          "label": "First Blood!",
-          "sha256": "9419061484a91ae5a935c6c629573bbe7e31dd6fc80d2f2603e2faa32becfb53"
-        },
-        {
-          "file": "sounds/first-blood-1.wav",
-          "label": "First Blood! (alt)",
-          "sha256": "3f295d8e3821d4f655809510113b1b47e5593c205e6c5adc2eb963d5c940732e"
-        },
-        {
-          "file": "sounds/you-have-slain-an-enemy.wav",
-          "label": "You Have Slain An Enemy.",
-          "sha256": "0c662fda3895f6c4a49f50fd413fbe835cb5ff625d55cba09e87f21dd33f9f35"
-        },
         {
           "file": "sounds/double-kill-2.wav",
           "label": "Double Kill!",
@@ -187,36 +202,6 @@
           "sha256": "5b83a0c1ad4266afc342c20c37f3c7a964f1d228c9a732c0eff4585211377893"
         },
         {
-          "file": "sounds/hexakill-1.wav",
-          "label": "Hexakill!",
-          "sha256": "72be49afaed8dfa04cb8487ebf730c93db8c79ef176b96f1935d10b7a4256f80"
-        },
-        {
-          "file": "sounds/hexakill-2.wav",
-          "label": "Hexakill! (alt)",
-          "sha256": "1bbd64cfdcde5ef09ff1ba9b76f43146c525a50d540c8974b3ae81f68a5f0b49"
-        },
-        {
-          "file": "sounds/hexakill-3.wav",
-          "label": "Hexakill! (alt2)",
-          "sha256": "e6e46ef03795223ca86afc40ce1823809a51c665ce169255f67c364010681c59"
-        },
-        {
-          "file": "sounds/heptakill.wav",
-          "label": "Heptakill!",
-          "sha256": "20859ec6c74826d94ee2fed83d4496fc863fe4e451836cad4ca577f550ce8f26"
-        },
-        {
-          "file": "sounds/octokill-1.wav",
-          "label": "Octokill!",
-          "sha256": "392c5f23489c8bec1e8f50edb3e6ba90049c0fd2913edbc89eed234f5031e26c"
-        },
-        {
-          "file": "sounds/octokill-2.wav",
-          "label": "Octokill! (alt)",
-          "sha256": "8a329ee536809807e0a66e83a0a7486d0e0cd4b7b60c421076ca51af0f33b075"
-        },
-        {
           "file": "sounds/killing-spree.wav",
           "label": "Killing Spree!",
           "sha256": "22629e6be8cf745f76adcea087ba48ce687115903ec3d9c29fa6ec3200269c15"
@@ -255,6 +240,101 @@
           "file": "sounds/well-done.wav",
           "label": "干的漂亮",
           "sha256": "df2a6898b69b22f3da13d78fd9d7c2764756fd7ff8c713658bb334948630190c"
+        },
+        {
+          "file": "sounds/enemy-double-kill.wav",
+          "label": "Enemy Double Kill!",
+          "sha256": "bb4e74412e803d70b8d7a9a4d189eb62c27b5dc68408bd85df003ba2db777854"
+        },
+        {
+          "file": "sounds/enemy-triple-kill.wav",
+          "label": "Enemy Triple Kill!",
+          "sha256": "aa95c8f94af201b9eae085beb85af89039bfdfdadad209228f8bede44008d3be"
+        },
+        {
+          "file": "sounds/enemy-quadra-kill.wav",
+          "label": "Enemy Quadra Kill!",
+          "sha256": "2fdcb64e1cb05631f541869b3193ac632cd02ea73281ed66b57f7ef78ac198d1"
+        },
+        {
+          "file": "sounds/enemy-pentakill.wav",
+          "label": "Enemy Pentakill!",
+          "sha256": "f022f73be9ef228d493ab9923b3e1eda76ead91c5fc5a56305a86f40d81d1857"
+        },
+        {
+          "file": "sounds/enemy-hexakill-1.wav",
+          "label": "Enemy Hexakill!",
+          "sha256": "14b4592eaf21172929656f4240acd5d776358a824610ad36d0ff1a2b44450e9a"
+        },
+        {
+          "file": "sounds/enemy-hexakill-2.wav",
+          "label": "Enemy Hexakill! (alt)",
+          "sha256": "27c5a49fe2e8baa3994b4ae08e34590a124f5f543a3c0d53767c8c71c1a19acc"
+        },
+        {
+          "file": "sounds/enemy-hexakill-3.wav",
+          "label": "Enemy Hexakill! (alt2)",
+          "sha256": "e74084f97fdac41107b085f3d23b3300ff5eca5b574f7275667734cf0fe64710"
+        },
+        {
+          "file": "sounds/enemy-hexakill-4.wav",
+          "label": "Enemy Hexakill! (alt3)",
+          "sha256": "4c492637825923a4bbd7bbd0357c07dd456073ffdf32ceaa9bab3fd00fdd07a7"
+        },
+        {
+          "file": "sounds/enemy-heptakill-1.wav",
+          "label": "Enemy Heptakill!",
+          "sha256": "35955d2d3d90bc60ae1a3c5238fda67fadd5c9605b531e651d670ca8741e81e1"
+        },
+        {
+          "file": "sounds/enemy-heptakill-2.wav",
+          "label": "Enemy Heptakill! (alt)",
+          "sha256": "db7750ef6eab293a6930ed742a384695cff89a1c7f48abbaa3053cfa374888cc"
+        },
+        {
+          "file": "sounds/enemy-heptakill-3.wav",
+          "label": "Enemy Heptakill! (alt2)",
+          "sha256": "5ceb0836c5d924d1f67b2d9d8d216fa04ac9fb745a836f8a6d04b21538e87bb3"
+        },
+        {
+          "file": "sounds/enemy-killing-spree.wav",
+          "label": "Enemy Killing Spree!",
+          "sha256": "c8c4d7ddd1997ab4e02ead2cacbdd0190cf54bbb93fae25cf12df069bd4f7cca"
+        },
+        {
+          "file": "sounds/enemy-rampage.wav",
+          "label": "Enemy Rampage!",
+          "sha256": "58ac49522750f4dfcbbc1e1c2edb3d2fa5488b0a34943a2c51ac0d28838db04c"
+        },
+        {
+          "file": "sounds/enemy-unstoppable.wav",
+          "label": "Enemy Unstoppable.",
+          "sha256": "2c886378a617e8aafde9dc7f853f199caadc54bd765045765e92b3d7fc4babb0"
+        },
+        {
+          "file": "sounds/enemy-legendary.wav",
+          "label": "Enemy Legendary!",
+          "sha256": "c907c39cc27dc57e206b0e93436d888051dcf5c2471e7f0eb823ea0ef9a754c8"
+        },
+        {
+          "file": "sounds/enemy-godlike.wav",
+          "label": "Enemy Godlike!",
+          "sha256": "9070376420464d7fc2ea4a5b2bcd9eb57190cede1a94e2c3680a5131b821b564"
+        },
+        {
+          "file": "sounds/enemy-off-to-kill.wav",
+          "label": "Enemy Off to Kill!",
+          "sha256": "ee0d47745d5a23229c4a40dd7d024ef4f83a1982b12016710ebc5aa8a377fee0"
+        },
+        {
+          "file": "sounds/enemy-ought-to-kill.wav",
+          "label": "Enemy Ought to Kill!",
+          "sha256": "c151061668597352038820a2f73e31dbcd955a82d4c41aa5af4780eff8adcac1"
+        },
+        {
+          "file": "sounds/enemy-up-to-kill.wav",
+          "label": "Enemy Up to Kill!",
+          "sha256": "06efa2b1067043dcdb454669a098a129353957e7680b212853e74246818d7766"
         }
       ]
     },
@@ -300,29 +380,9 @@
     "input.required": {
       "sounds": [
         {
-          "file": "sounds/request-support-1.wav",
-          "label": "请求支援",
-          "sha256": "e67495ef6048902efbc4f6b8bd1ea964ec50300fd1fd06abd51189aa580ac747"
-        },
-        {
-          "file": "sounds/request-rally.wav",
-          "label": "请求集合",
-          "sha256": "6ddaa23294b3789d5ce557fe3997db7fd051eea86e176ff066aa1ed20ad967b4"
-        },
-        {
           "file": "sounds/team-fight-stop-solo.wav",
           "label": "打团了，别单带",
           "sha256": "bb8d80deb6e115981cd0202976a57fee388b4e8ae796853c3f0442db10d24753"
-        },
-        {
-          "file": "sounds/support-me.wav",
-          "label": "支援我！",
-          "sha256": "28577daca213869021dd872167339384b89d765ae77ca6ccfa41a1b13b02e4db"
-        },
-        {
-          "file": "sounds/request-health-support.wav",
-          "label": "请求药品支援",
-          "sha256": "cb2001a7a5834f74b519f6d16bd23735986ca55f8bd7e1960d0fd21f956275bb"
         },
         {
           "file": "sounds/our-crystal-under-attack.wav",
@@ -333,16 +393,6 @@
           "file": "sounds/our-turret-under-attack.wav",
           "label": "我方防御塔正在被攻击",
           "sha256": "a0eb18162c1d4979d5a19693f47a4d2347341016cac50ea31256b4b6708972bf"
-        },
-        {
-          "file": "sounds/request-support-2.wav",
-          "label": "请求支援",
-          "sha256": "9bd8b669b89806c17c2a4e9658dab30df84586de7f481c07cd6903a120478dfa"
-        },
-        {
-          "file": "sounds/dont-miss-the-goods.wav",
-          "label": "这么多好货别错过哟",
-          "sha256": "2a44b702028594c3d1658460659d613c5a88ed1cafd7945b74a6749c17fd346d"
         }
       ]
     },
